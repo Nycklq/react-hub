@@ -1,0 +1,33 @@
+.secao-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secao-projetos li {
+    list-style-type: none;
+}
+
+.lista-de-projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-de-projetos li img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.secao-projetos li a{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}

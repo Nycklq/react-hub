@@ -1,0 +1,20 @@
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}
+
+.links a {
+    text-decoration-color: blue;
+    color: blueviolet;
+}
+
+.header{
+    display: flex;
+    color: blueviolet;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
