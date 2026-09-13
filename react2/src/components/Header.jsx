@@ -1,6 +1,6 @@
 function Header() {
     return(
-        <header>
+        <header className="flex justify-center bg-[#0D142f] p-20 text-white">
             <h1>Tarefas App</h1>
         </header>
     )

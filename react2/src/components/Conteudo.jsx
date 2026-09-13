@@ -1,9 +1,12 @@
-import SideBar from "./SideBar";
+import ConteudoPrincipal from "./ConteudoPrincipal.jsx";
+import SideBar from "./Sidebar.jsx";
+
 
 function Conteudo() {
     return(
-        <div>
+        <div className="flex">
             <SideBar />
+            <ConteudoPrincipal />
         </div>
     )
 }
