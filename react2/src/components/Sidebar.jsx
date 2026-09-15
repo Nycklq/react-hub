@@ -1,9 +1,25 @@
+import { Star, CheckBoxRounded, Check } from "@mui/icons-material"
 function SideBar() {
     return (
-        <nav className="flex flex-col items-start gap-2 bg-[#0D142f]">
-            <button className="w-full cursor-pointer text-white">Todas</button>
-            <button className="w-full cursor-pointer text-white">Completas</button>
-            <button className="w-full cursor-pointer text-white">Favoritas</button>
+        <nav className="flex flex-col items-start w-50 gap-2 bg-[#0D142f]">
+            <button className="flex justify-center items-center gap-4 w-full cursor-pointer text-white">
+                <section>
+                    <CheckBoxRounded/>
+                    Todas
+                </section>
+            </button>
+            <button className="flex justify-center items-center gap-4 w-full cursor-pointer text-white">
+                <section>
+                    <Check/>
+                    Completas
+                </section>
+            </button>
+            <button className="flex justify-center items-center gap-4 w-full cursor-pointer text-white">
+                <section>
+                    <Star/>
+                    Favoritas
+                </section>
+            </button>
         </nav>
     )
 }
