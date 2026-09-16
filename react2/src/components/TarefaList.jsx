@@ -1,6 +1,8 @@
 import { RadioButtonChecked, Star, Delete } from "@mui/icons-material"
 function TarefaList() {
+
     const tarefas = ["Fazer tarefa", "Estudar programacao", "Estudar"];
+    
     return (
         <ul className="bg-[#0D142f] p-7 rounded-2xl w-[80%] max-h-[80%]">
             {
