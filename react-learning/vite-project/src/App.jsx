@@ -1,17 +1,15 @@
-import Condicional from "./components/Condicional"
-import Lista from "./components/Lista";
-
+import Saudacao from "./components/Saudacao";
+import SeuNome from "./components/SeuNome";
+import { useState } from "react";
 function App() {
 
-  const meusitens = ["React", "Vue", "Angular"];
-  
+  const [nome,setNome] = useState();
+
   return (
     <div>
-      <h1>Renderizacao da condicional</h1>
-      <Condicional />
-      <h1>Renderizacao de Listas</h1>
-      <Lista lista={meusitens}/>
-      <Lista lista={[]}/>
+      <h1>State lift</h1>
+      <SeuNome setNome={setNome}/>
+      <Saudacao nome={nome}/>
     </div>
   )
 
