@@ -6,7 +6,9 @@ function CardProduto(props) {
         <div>
             <h2>{nome}</h2>
             <p>R$ {preco}</p>
-            <button onClick={props.onAdicionar}>Adicionar ao carrinho</button>
+            <button onClick={() => {
+                props.onAdicionar(props)
+            }}>Adicionar ao carrinho</button>
         </div>
     )
 }

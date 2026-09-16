@@ -1,22 +1,14 @@
-import CardProduto from "./components/CardProduto";
+import Condicional from "./components/Condicional"
 
 function App() {
-  
-  const produto = {
-    nome: "Mouse",
-    preco: 120
-  }
-
-  const produtoClicado = () => {
-    alert("Produto clicado");
-    console.log(produto);
-  }
 
   return (
     <div>
-      <CardProduto nome={produto.nome} preco={produto.preco} onAdicionar={produtoClicado}/>
+      <h1>Renderizacao da condicional</h1>
+      <Condicional />
     </div>
   )
+  
 }
 
 export default App
