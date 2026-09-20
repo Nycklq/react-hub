@@ -4,9 +4,19 @@ import { useState } from 'react'
 function App( {title, description} ) {
 
   const [number,setNumber] = useState(0);
+  const frutas = ["Maça", "Banana","Laranja"];
 
   return(
     <div>
+
+      <div>
+        {
+          frutas.map((fruta,index) => {
+            <p key={index}>{fruta}</p>
+          })
+        }
+      </div>
+
       <h1>{title}  {number}</h1>
 
       <p>{description}</p>
